@@ -14,8 +14,8 @@ Auslosungsdatum
 Verteildatum
 BegrüssungsNachricht. 
 
-Danach kriegt er eine bestätigungsmail in der er akzeptieren muss, danach kann er weitere Mitglieder fürs Wichteln hinzufügen(emailadresse,Name). 
-diese können Annehmen oder Ablehnen.
-Bis zum Auslosungsdatum kann angenommen oder abgelehnt werden.
+Danach kriegt er eine Bestätigungsmail die er akzeptieren muss, danach kann er weitere Mitglieder fürs Wichteln hinzufügen(emailadresse,Name). 
+Diese können die Anfrage annehmen oder ablehnen.
+Bis zum Auslosungsdatum kann angenommen oder abgelehnt werden. 
 
 Am Auslosungsdatum wird ausgelost und jeder erhält eine Person zum Wichteln, diese wird ihm Per mail zugeschickt.
