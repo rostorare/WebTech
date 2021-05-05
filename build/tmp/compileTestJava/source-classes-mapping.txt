@@ -1,0 +1,4 @@
+htw/berlin/Wichteln/HelloControllerIT.java
+ com.example.springboot.HelloControllerIT
+htw/berlin/Wichteln/HelloControllerTest.java
+ com.example.springboot.HelloControllerTest
