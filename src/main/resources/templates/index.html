@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html th:replace="~{layout :: layout (~{::body})}" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/bootstrap.css">
-
     <title>Wichteln</title>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="#" th:src="@{/js/dynamic-form.js}" defer></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="col">
-                <p>Hier wird demnächst eine schöne Seite entstehen</p>
             </div>
             <div class="col-8">
                 <div class="container">
                     <h1>Wichteln</h1>
-                    <h2>work in progress</h2>
-                    <p>Hier wird demnächst eine schöne Seite entstehen</p>
+                    <div id="dynamic-form">
+                        <dynamic-form></dynamic-form>
+                    </div>
                     <a class="btn btn-primary" href="#" role="button">Wichtelevent</a>
                 </div>
             </div>
