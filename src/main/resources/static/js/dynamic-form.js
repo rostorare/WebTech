@@ -3,7 +3,7 @@ app.component('dynamic-form', {
     template:`
     <div>
         <input v-model="nameField" placeholder="Name" ref="nameInput">
-        <input v-model="emailField" placeholder="e-mail" @keyup.enter="save()">
+        <input v-model="emailField" placeholder="email" @keyup.enter="save()">
         <button type="button" @click="save()">Save</button>
     </div>
     <div>
@@ -12,7 +12,7 @@ app.component('dynamic-form', {
                 <thead>
                 <tr>
                     <th>name</th>
-                    <th>e-mail</th>
+                    <th>email</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -21,7 +21,7 @@ app.component('dynamic-form', {
                 </tr>
                 <tr v-for="product in items">
                     <td>{{product.name}}</td>
-                    <td>{{product.e-mail}}</td>
+                    <td>{{product.email}}</td>
                 </tr>
                 <tr>
                     <td>{{ nameField }}</td>
